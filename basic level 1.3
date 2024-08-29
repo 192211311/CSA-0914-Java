@@ -1,0 +1,11 @@
+public class BinaryToDecimal {
+    public static void main(String[] args) {
+        String binaryString = "1011";g
+        int decimalNumber = binaryToDecimal(binaryString);
+        System.out.println("Binary: " + binaryString);
+        System.out.println("Decimal: " + decimalNumber);
+    }
+    public static int binaryToDecimal(String binaryString) {
+        return Integer.parseInt(binaryString, 2);
+    }
+}
